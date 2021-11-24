@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+}
+@font-face{
+
+    font-family:'graphik';
+    font-weight: 500;
+    src: url('./GraphikRegular.otf');
+
+}
+@font-face{
+
+    font-family:'Graphik';
+    font-weight: 700;
+    src: url('./GraphikMedium.otf');
+
+}
+
+.cont{
+    max-width: 1000px;
+    margin: auto;
+}
+
+
+.header{
+    background-color: #181818;
+}
+
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 33px;
+    padding-bottom: 69px;
+}
+
+.nav-menu{
+    width: 390px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu-link{
+    text-decoration: none;
+    color: white;
+    font-family: 'Graphik';
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.nav-login{
+    display:block ;
+    height: 52px;
+    width: 139px;
+    border: 1px solid white;
+    text-decoration: none;
+    color: white;
+    font-family: 'Graphik';
+    text-align: center;
+    line-height: 52px;
+}
+
+
+@media (max-width:830px){
+    .nav-menu{
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
